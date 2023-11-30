@@ -20,6 +20,8 @@ It's recommended to use Python 3.6 or above
 The project is organized as follows:
 
 - `src/`: Contains the source code.
+- `src/commands`: Contains folders with source code for each type of command.
+- `src/commands/ls` : Contains source code for the command ls
 - `cmd.py`: Enter command typing mode.
 
 # How to contribute
