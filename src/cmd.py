@@ -19,4 +19,3 @@ while True:
     else:
         print("Unknown command or missing arguments.")
         sys.exit()
-
