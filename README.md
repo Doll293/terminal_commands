@@ -9,7 +9,7 @@ available only on Windows.
 It's recommended to use Python 3.6 or above
 
 # How to use
-1. Fork this repo on the machine you want  
+1. Clone this repo on the machine you want  
 ```git clone https://github.com/Dan-Popescu/terminal_commands.git```
 2. Open a command line
 2. Navigate to the project's directory in the command line
