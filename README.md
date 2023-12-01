@@ -5,16 +5,15 @@ available only on Windows.
 ![GitHub Repo stars](https://img.shields.io/github/stars/Dan-Popescu/terminal_commands)
 
 ## Recommendations
-
 It's recommended to use Python 3.6 or above
 
 # How to use
 1. Clone this repo on the machine you want  
 ```git clone https://github.com/Dan-Popescu/terminal_commands.git```
 2. Open a command line
-2. Navigate to the project's directory in the command line
-3. Type ```python src/cmd.py``` on the command line
-4. You can type any of the available commands (currently only ```ls``` is available)
+3. Navigate to the project's directory in the command line
+4. Type ```python src/cmd.py``` on the command line
+5. You can type any of the available commands (currently only ```ls``` is available)
 
 # Project Structure
 The project is organized as follows:
@@ -29,16 +28,31 @@ We welcome contributions from the community to expand this project and add more 
 Here's how you can contribute:
 
 1. Fork the repository  
-```git fork https://github.com/yourusername/linux-windows-project.git```
-2. Create a branch for your feature or fix  
-```git checkout -b your-branch-name```
-3. Make your changes and test them locally  
-```python src/cmd.py```
-4. Commit your changes locally   
-```git commit -m "Description of your changes"```
-5. Push your changes to the remote forked repository    
-```git push origin your-branch-name```  
-6. Open pull request with a merge of your forked repository into the original repository 
+- Click on Fork 
+- Click on Create Fork
+2. Clone the forked repository
+- Copy the https url
+- Clone the repository using the previously copied url :  
+```python
+git clone <fork repo url>
+```
+3. Create a branch for your feature or fix  
+```py
+git checkout -b your-branch-name
+```
+4. Make your changes and test them locally  
+```py
+python src/cmd.py
+```
+5. Commit your changes locally   
+```py
+git commit -m "Description of your changes"
+```
+6. Push your changes to the remote forked repository    
+```py
+git push origin your-branch-name
+```  
+7. Open pull request with a merge of your forked repository into the original repository 
 - Visit your fork on GitHub in a web browser. 
 - Switch to the branch you pushed. 
 - Click on the "New pull request" button.
