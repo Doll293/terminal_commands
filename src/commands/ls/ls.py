@@ -1,3 +1,4 @@
+"""Module providing a function that lists files and subdirectories of the current directory"""
 import os
 
 

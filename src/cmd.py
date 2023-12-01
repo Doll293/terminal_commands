@@ -1,8 +1,8 @@
 """Main program"""
+import sys
 from commands.ls.ls import ls
 from commands.rm.rm import remove
 from commands.touch.touch import touch
-import sys
 
 while True:
     command = input("Enter command: ").strip().split()
