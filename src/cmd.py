@@ -1,6 +1,8 @@
+"""Main program"""
 from commands.ls.ls import ls
 from commands.rm.rm import remove
 from commands.touch.touch import touch
+import sys
 
 while True:
     command = input("Enter command: ").strip().split()
@@ -16,4 +18,5 @@ while True:
         touch(command[1])
     else:
         print("Unknown command or missing arguments.")
-        exit()
+        sys.exit()
+
